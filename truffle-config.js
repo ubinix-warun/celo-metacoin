@@ -1,7 +1,7 @@
 const ContractKit = require('@celo/contractkit');
 const Web3 = require('web3');
 
-require('dotenv').config({path: '../scripts/.env'});
+require('dotenv').config({path: './.env'});
 
 // Create connection to DataHub Celo Network node
 const web3 = new Web3(process.env.REST_URL);
